@@ -1,0 +1,51 @@
+.main-nav {
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 72px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0px 32px;
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #293935;
+}
+
+.contact-us button {
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 1px solid #5956e8;
+    background: transparent;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #293935;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    background: #5956e8;
+    color: #fff;
+}
+
+.Icon {
+    font-size: 17px;
+    color: #5956e8;
+    margin-left: 6px;
+}
+
+.contact-us button:hover .Icon {
+    color: #fff;
+}
